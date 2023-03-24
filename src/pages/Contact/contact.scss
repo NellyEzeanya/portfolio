@@ -1,0 +1,31 @@
+main.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+
+    .title {
+        color: var(--green);
+    }
+
+    .contactBtn {
+        color: var(--green);
+        border: 1.5px solid var(--green);
+        border-radius: 15px;
+        padding: 5px 15px;
+
+        &:hover {
+            background: var(--green);
+            color: var(--white);
+        }
+    }
+
+    .contact-text {
+        font-size: 15px;
+    }
+
+    .center {
+        padding: 8px 0;
+        text-align: center;
+    }
+}

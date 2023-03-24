@@ -1,0 +1,26 @@
+main.experience {
+    .exp > * {
+        padding: 4px 0;
+        // margin-bottom: 20px;
+    }
+
+    .institution {
+        color: var(--green);
+        font-weight: bold;
+    }
+
+    .duration {
+        font-size: 12px;
+        list-style-position: inside;
+    }
+
+    .tasks {
+        border-left: 1.5px solid var(--green);
+        padding-left: 10px;
+        font-size: 15px;
+
+        p {
+            padding: 3px 0;
+        }
+    }
+}

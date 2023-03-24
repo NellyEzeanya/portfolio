@@ -1,0 +1,77 @@
+main.projects {
+    .title {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .repos {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(100px, 200px));
+        gap: 10px;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .repo {
+        background: var(--light-green);
+        padding: 8px;
+        color: var(--white);
+        display: block;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            transform: translateY(-2px);
+            .project-name {
+                color: var(--green);
+            }
+        }
+        
+        a {
+            color: var(--white);
+        }
+
+        a:hover {
+            color: var(--green);
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .summary {
+            font-size: 14px;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+
+        .project-name {
+            padding: 6px 0;
+        }
+
+        .tech {
+            font-size: 12px;
+            padding: 10px 0;
+            color: var(--green)
+        }
+
+        .folder {
+            color: var(--green);
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .repos {
+        display: block !important;
+        .repo {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+}
