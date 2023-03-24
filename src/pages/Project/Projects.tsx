@@ -51,9 +51,9 @@ const Project = () => {
           stack={["Javascript", "React.js", "Nodejs"]}
         />
         <Repo
-          name="Slick HTML Form using Sass"
+          name="Slick HTML Form using HTML & CSS"
           summary="A clone of a beautiful form page, to test my frontend skills"
-          stack={["HTML", "CSS", "SASS"]}
+          stack={["HTML", "CSS"]}
         />
       </div>
     </main>
