@@ -37,7 +37,7 @@ const Experience = () => {
           <li>Sep 2022</li>
         </ul>
         <div className="tasks">
-          <p>Obtained a BSc in computer science</p>
+          <p>Currenrtly holds a Masters degree in Human Resource Management</p>
         </div>
       </div>
     </main>
