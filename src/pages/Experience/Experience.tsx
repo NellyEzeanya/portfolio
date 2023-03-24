@@ -29,8 +29,7 @@ const Experience = () => {
             target="_blank"
             href="https://www.womentechsters.org"
             className="institution"
-           @Ignatius Ajuru University of Education
-            
+                   
           </a>
         </p>
         <ul className="duration">
