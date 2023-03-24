@@ -24,12 +24,12 @@ const Experience = () => {
       <br />
       <div className="exp">
         <p>
-          @Women Techsters Fellowship{" "}
+          HR Management{" "}
           <a
             target="_blank"
             href="https://www.womentechsters.org"
             className="institution"
-           Ignatius Ajuru University of Education
+           @Ignatius Ajuru University of Education
             
           </a>
         </p>
